@@ -1,0 +1,20 @@
+RequestException
+|___HTTPError
+|___ConnectionError
+|   |___ProxyError	
+|   |___SSLError	
+|___Timeout
+|   |___ConnectTimeout
+|   |___ReadTimeout
+|___URLRequired
+|___TooManyRedirects
+|___MissingSchema
+|___InvalidSchema
+|___InvalidURL
+|   |___InvalidProxyURL
+|___InvalidHeader
+|___ChunkedEncodingError
+|___ContentDecodingError
+|___StreamConsumedError
+|___RetryError
+|___UnrewindableBodyError
